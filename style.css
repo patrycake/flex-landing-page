@@ -37,6 +37,10 @@ a {
     padding: 0 10px 0 10px;
 }
 
+a:hover {
+    color: #59877F;
+}
+
 .links {
     margin: 0 0 0 auto;
 }
@@ -70,7 +74,14 @@ header {
     border: none;
     border-radius: 8px;
     color: #B5BCAC;
+    border: 2px solid #59877F;
     font-family: 'Quicksand', sans-serif;
+}
+
+.header-left button:hover {
+    background-color: #0F4149;
+    border: 2px solid #B5BCAC;
+    ;
 }
 
 .information-container {
@@ -79,7 +90,7 @@ header {
 }
 
 .information-container h1 {
-    color: #151C22;
+    color: #0F4149;
     margin-bottom: 50px;
 }
 
@@ -116,7 +127,7 @@ header {
 .testimontial p {
     font-family: 'Chelsea Market', cursive;
     font-style: italic;
-    margin: 0 70px 0  70px;
+    margin: 0 70px 0 70px;
 }
 
 .calltoaction-container {
@@ -148,6 +159,12 @@ header {
     border-radius: 8px;
     color: #B5BCAC;
     font-family: 'Quicksand', sans-serif;
+}
+
+.calltoaction-container-right button:hover {
+    background-color: #B5BCAC;
+    border: 2px solid #59877F;
+    color: #59877F;
 }
 
 footer {

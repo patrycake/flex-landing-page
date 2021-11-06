@@ -38,11 +38,21 @@ header {
     border-radius: 8px;
 }
 
-.info-img {
-    width: 200px;
-    height: 200px;
-    border-radius: 20px;
-    border: 8px solid #59877F;
+.header-left h1 {
+    color: #B5BCAC;
+    font-weight: 800;
+}
+
+.header-left p {
+    color: #8e9486;
+}
+
+.header-left button {
+    padding: 10px 20px;
+    background-color: #59877F;
+    border: none;
+    border-radius: 8px;
+    color: #B5BCAC;
 }
 
 .information-container {
@@ -50,10 +60,31 @@ header {
     text-align: center;
 }
 
+.information-container h1 {
+    color: #151C22;
+    margin-bottom: 50px;
+}
+
 .info-container {
     display: flex;
     justify-content: center;
     gap: 20px;
+}
+
+.info-img-container {
+    flex: 0 1 0;
+}
+
+.info-img-container p {
+    margin: 0;
+    color: #8e9486;
+}
+
+.info-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    border: 8px solid #59877F;
 }
 
 .testimontial {
@@ -71,9 +102,21 @@ header {
     align-items: center;
 }
 
+.calltoaction-container-left h1 {
+    color: #B5BCAC;
+}
+.calltoaction-container-left p {
+    color: #8e9486;
+    margin: 0;
+}
+
 footer{
     background-color: #0F4149;
     padding: 20px;
     margin: 0;
     text-align: center;
+}
+
+footer p {
+    margin: 0;
 }

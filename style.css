@@ -6,16 +6,59 @@ forest - #104235
 dark blue - #0F4149
 black - #151C22
 */
-html,body{
+html,
+body {
+    margin: 0;
     background-color: #B5BCAC;
 }
 
-h1{
+h1 {
+    margin: 0;
     font-family: 'Amatic SC', cursive;
     font-size: 4em;
 }
 
-p{
+p {
     font-family: 'Dongle', sans-serif;
     font-size: 2em;
+}
+
+header {
+    background-color: #0F4149;
+}
+
+.hero-img {
+    width: 400px;
+    border-radius: 8px;
+}
+
+.info-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    border: 8px solid #59877F;
+}
+
+.information-container {
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.testimontial {
+    padding: 100px;
+    background-color: #59877F;
+}
+
+.calltoaction-container {
+    background-color: #104235;
+    margin: 100px 250px;
+    border-radius: 8px;
+    padding: 5px 10px;
+}
+
+footer{
+    background-color: #0F4149;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
 }

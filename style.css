@@ -1,0 +1,21 @@
+/*
+Palette
+tan - #B5BCAC
+pastal - #59877F
+forest - #104235
+dark blue - #0F4149
+black - #151C22
+*/
+html,body{
+    background-color: #B5BCAC;
+}
+
+h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 4em;
+}
+
+p{
+    font-family: 'Dongle', sans-serif;
+    font-size: 2em;
+}

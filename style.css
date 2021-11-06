@@ -10,17 +10,18 @@ html,
 body {
     margin: 0;
     background-color: #B5BCAC;
+    font-family: 'Quicksand', sans-serif;
 }
 
 h1 {
     margin: 0;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Chelsea Market', cursive;
     font-size: 4em;
 }
 
 p {
-    font-family: 'Dongle', sans-serif;
-    font-size: 2em;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
 }
 
 nav {
@@ -32,11 +33,11 @@ nav {
 a {
     text-decoration: none;
     color: #B5BCAC;
-    font-family: 'Dongle', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     padding: 0 10px 0 10px;
 }
 
-.links{
+.links {
     margin: 0 0 0 auto;
 }
 
@@ -57,7 +58,6 @@ header {
 
 .header-left h1 {
     color: #B5BCAC;
-    font-weight: 800;
 }
 
 .header-left p {
@@ -70,6 +70,7 @@ header {
     border: none;
     border-radius: 8px;
     color: #B5BCAC;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .information-container {
@@ -94,7 +95,8 @@ header {
 
 .info-img-container p {
     margin: 0;
-    color: #8e9486;
+    color: #59877F;
+    font-size: 1em;
 }
 
 .info-img {
@@ -105,27 +107,47 @@ header {
 }
 
 .testimontial {
-    padding: 100px;
-    background-color: #59877F;
+    padding: 150px;
+    background-color: #104235;
+    color: #B5BCAC;
+
+}
+
+.testimontial p {
+    font-family: 'Chelsea Market', cursive;
+    font-style: italic;
+    margin: 0 70px 0  70px;
 }
 
 .calltoaction-container {
-    background-color: #104235;
+    background-color: #59877F;
     margin: 100px 250px;
     border-radius: 8px;
-    padding: 5px 10px;
+    padding: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.calltoaction-container-left h1 {
+.calltoaction-container-left h2 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 2em;
     color: #B5BCAC;
+    margin: 0;
 }
 
 .calltoaction-container-left p {
-    color: #8e9486;
+    color: #B5BCAC;
     margin: 0;
+}
+
+.calltoaction-container-right button {
+    padding: 10px 20px;
+    background-color: #59877F;
+    border: 2px solid #B5BCAC;
+    border-radius: 8px;
+    color: #B5BCAC;
+    font-family: 'Quicksand', sans-serif;
 }
 
 footer {
@@ -137,4 +159,5 @@ footer {
 
 footer p {
     margin: 0;
+    color: #B5BCAC;
 }

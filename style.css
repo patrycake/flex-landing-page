@@ -23,14 +23,31 @@ p {
     font-size: 2em;
 }
 
+nav {
+    display: flex;
+    align-items: center;
+    padding: 0 200px 0 200px;
+}
+
+a {
+    text-decoration: none;
+    color: #B5BCAC;
+    font-family: 'Dongle', sans-serif;
+    padding: 0 10px 0 10px;
+}
+
+.links{
+    margin: 0 0 0 auto;
+}
+
 header {
     background-color: #0F4149;
 }
 
 .header-container {
     display: flex;
-    justify-content: space-evenly;
-    padding: 100px;
+    justify-content: space-between;
+    padding: 100px 200px 100px 200px;
 }
 
 .hero-img {
@@ -105,12 +122,13 @@ header {
 .calltoaction-container-left h1 {
     color: #B5BCAC;
 }
+
 .calltoaction-container-left p {
     color: #8e9486;
     margin: 0;
 }
 
-footer{
+footer {
     background-color: #0F4149;
     padding: 20px;
     margin: 0;
